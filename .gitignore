@@ -1,0 +1,32 @@
+# OS-specific files
+.DS_Store
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment folders
+env/
+.venv/
+ENV/
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Test and coverage-related files
+.coverage
+*.xml
+*.test_metadata
+
+# Jupyter Notebook checkpoints (if you have notebooks)
+.ipynb_checkpoints/
+
+# PyTest cache and Markdown previews
+.pytest_cache
+migrations/
